@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-apt-get install nginx
+apt-get install -y nginx
 cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf_old
 cp nginx.conf /etc/nginx/nginx.conf
 
