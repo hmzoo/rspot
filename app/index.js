@@ -31,7 +31,7 @@ app.get('/sid', function(req, res, next) {
 //Mqtt
 var mqtt = require('mqtt')
 //var m  = mqtt.connect('mqtt://192.168.33.1')
-var m = mqtt.connect('mqtt://192.168.24.50')
+var m = mqtt.connect('mqtt://127.0.0.1')
 //Socket.io
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
