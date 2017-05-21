@@ -1,14 +1,27 @@
 {
-  "name": "rspot-sample-app",
+  "name": "node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "node-app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmzoo/node-app.git"
   },
   "author": "HMJ",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmzoo/node-app/issues"
+  },
+  "homepage": "https://github.com/hmzoo/node-app#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mqtt": "^2.7.2",
+    "socket.io": "^2.0.1"
   }
 }
